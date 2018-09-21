@@ -30,4 +30,9 @@ dotnet sln add src/App/App.fsproj
 Ctrl-Shift-P: Git: Initialize Repository
 
 ## Publish to Github:
-Create Repository ```FsNetCoreTutorial```
+Create Repository ```FsNetCoreTutorial```, but no Commits!
+
+In Terminal in Visual Studio Code type
+```git remote add origin https://github.com/<path to repository>```
+
+Sync project to Githup, then add Readme and License
