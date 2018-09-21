@@ -10,9 +10,9 @@ How to create and develop a F# .NET Core project with Visual Studio Code
 Create new Project:
 
 In Terminal goto projects folder
-```dotnet new sln -o ConsoleTest```
+```dotnet new sln -o FsNetCoreTutorial```
 
-open Folder ```ConsoleTest```
+open Folder ```FsNetCoreTutorial```
 
 To create new Library:
 ```
@@ -26,3 +26,8 @@ dotnet new console -lang F# -o src/App
 dotnet add src/App/App.fsproj reference src/Library/Library.fsproj
 dotnet sln add src/App/App.fsproj
 ```
+## Add to Git:
+Ctrl-Shift-P: Git: Initialize Repository
+
+## Publish to Github:
+Create Repository ```FsNetCoreTutorial```
